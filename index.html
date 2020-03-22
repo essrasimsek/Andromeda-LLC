@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+
     <script>
         //https://www.youtube.com/watch?v=XVKuUsZJ99M
 
@@ -93,7 +93,25 @@
             padding-top: 150px;
         }
     </style>
+    <style>
+        .parallax {
+            /* The image used */
 
+
+            margin-top: 70px;
+            /* Full height */
+            height: 600px;
+            width: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* Set a specific height */
+
+        }
+    </style>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/site8696.css">
 
@@ -104,7 +122,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark customback">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo.png" style="height: 29px;" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -150,10 +168,15 @@
 
     </div>
     <div class="row">
+
         <div class="customcontainer">
-            <img src="assets/images/ourworks.jpg" class="opacityimage" />
+            <div style=" background-image: url('assets/images/ourworks.jpg')" class="parallax"></div>
             <div class="centered centeredtext" style="font-size: 40px;">OUR WORKS</div>
         </div>
+
+
+
+
 
     </div>
     <div class="row bozkurt">
@@ -173,7 +196,7 @@
     </div>
     <div class="row">
         <div class="customcontainer">
-            <img src="assets/images/mac.png" class="opacityimage" />
+            <div style=" background-image: url('assets/images/mac.png')" class="parallax"></div>
             <div class="centered centeredtext" style="font-size: 40px;">SERVICES</div>
         </div>
 
@@ -195,7 +218,9 @@
     </div>
     <div class="row">
         <div class="customcontainer">
-            <img src="assets/images/mactwo.jpg" class="opacityimage" />
+
+
+            <div style=" background-image: url('assets/images/mactwo.jpg')" class="parallax"></div>
             <div class="centered centeredtext" style="font-size: 40px;">Contact</div>
         </div>
 
