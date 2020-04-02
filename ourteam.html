@@ -103,7 +103,7 @@
 <body style="background-image: url('./assets/images/bg.jpeg');">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark customback"  style="background-color: transparent !important;">
+    <nav class="navbar navbar-expand-lg navbar-dark customback" style="background-color: transparent !important;z-index: 1;">
         <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo.png" style="height: 29px;" />
         </a>
@@ -124,8 +124,15 @@
 
         </div>
     </nav>
+    <iframe id="player"
+        style="position: absolute; top: 0px; bottom: 0px;left: 0px; right: 0px; width: 100%; height: 680px;"
+        frameborder="0" allowfullscreen="1"
+        allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"
+        width="640" height="360"
+        src="https://www.youtube.com/embed/cYTbbdoRtR0?autohide=1&amp;autoplay=1&amp;controls=0&amp;enablejsapi=1&amp;iv_load_policy=3&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;wmode=opaque&amp;origin=https%3A%2F%2Fwww.andromeda.network&amp;widgetid=1"
+        class="background-video ready"></iframe>
 
-    <div class="container">
+    <div class="container" style="padding-top:290px">
         <div class="row">
             <div class="col-sm-12" style="margin-top: 120px;">
                 <center>
@@ -307,18 +314,18 @@
                         <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">SUBSCRIBE</h4>
                         <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Sign up with your email
                             address to receive news and updates.</p><br />
-    
+
                         <input type="text"
                             style="padding:17px;border:0px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black"
                             placeholder="Email Adress" />
                         <button
                             style="border:2px solid white;background-color: black;color:white;padding:11px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">SIGN
                             UP</button>
-    
+
                         <p style="font-size: 12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
                             We respect your privacy.
                         </p>
-    
+
                     </center>
                 </div>
             </div>
