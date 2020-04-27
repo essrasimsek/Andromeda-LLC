@@ -96,21 +96,21 @@
     </style>
     <script>
         // Load the IFrame Player API code asynchronously.
-        var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        // var tag = document.createElement('script');
+        // tag.src = "https://www.youtube.com/player_api";
+        // var firstScriptTag = document.getElementsByTagName('script')[0];
+        // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-        // Replace the 'ytplayer' element with an <iframe> and
-        // YouTube player after the API code downloads.
-        var player;
-        function onYouTubePlayerAPIReady() {
-            player = new YT.Player('ytplayer', {
-                height: '360',
-                width: '640',
-                videoId: 'M7lc1UVf-VE'
-            });
-        }
+        // // Replace the 'ytplayer' element with an <iframe> and
+        // // YouTube player after the API code downloads.
+        // var player;
+        // function onYouTubePlayerAPIReady() {
+        //     player = new YT.Player('ytplayer', {
+        //         height: '360',
+        //         width: '640',
+        //         videoId: 'M7lc1UVf-VE'
+        //     });
+        // }
     </script>
     <style>
         .sqs-video-background {
@@ -144,7 +144,7 @@
     </style>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/site8696.css">
-
+    <script src="https://www.youtube.com/iframe_api" class="loaded"></script>
     <title>Andromeda LLC</title>
 </head>
 
@@ -185,8 +185,7 @@
         class="background-video ready"></iframe>
 
 
-    <div class="container">
-
+    
         <div class="row">
 
 
@@ -197,22 +196,21 @@
             </div>
         </div>
         <div class="row bozkurt">
-            <div class="col-sm-6">
-                <div class="container">
-                    <img class="opacityimage" src="assets/images/appletv.png" />
-                    <div class="centered centeredtext">Apple TV Application</div>
-                </div>
+            <div class="col-sm-6"  style="padding: 0px !important;">
+                <img class="opacityimage"  src="assets/images/appletv.png" />
+            <div class="centered centeredtext" style="color: white !important;">Apple TV Application</div>
+
             </div>
-            <div class="col-sm-6">
-                <div class="container">
-                    <img class="opacityimage" src="assets/images/androidtv.png" />
-                    <div class="centered centeredtext">Android TV Application</div>
-                </div>
+            <div  class="col-sm-6" style="padding: 0px !important;" >
+
+                <img class="opacityimage" src="assets/images/androidtv.png" />
+                <div class="centered centeredtext" style="color: white !important;">Android TV Application</div>
+
             </div>
 
         </div>
 
-    </div>
+  
     <div class="row">
 
         <div class="customcontainer">
@@ -239,7 +237,7 @@
                         OUR WORKS
                         <br />
                         <a style="font-size: 13px;color:gray">AMAZING WEBSITE</a>
-                     
+
 
                     </div>
                 </div>
@@ -339,7 +337,7 @@
             </div>
         </div>
     </div>
-
+    <link rel="canonical" href="https://www.youtube.com/watch?v=4qyWAleDCJU">
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
